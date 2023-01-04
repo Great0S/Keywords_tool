@@ -28,8 +28,6 @@ class QuestionsExplorer:
 
 # Get a Keyword From The User
 def question(userInput):
-    
-    userInput = input("Enter a Keyword: ")
 
     # Create Object of the QuestionsExplorer Class
     qObj = QuestionsExplorer()
