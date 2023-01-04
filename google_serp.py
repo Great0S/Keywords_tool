@@ -4,11 +4,14 @@ from config.settings import settings
 logger = settings.logger
 key = settings.serpApi_key5
 
+def serp(query: str, lang: str):
 
-def autocomplete(query):
     params = {
-        "engine": "google_autocomplete",
+        "engine": "google",
         "q": query,
+        "google_domain": "google.com",
+        "gl": "us",
+        "hl": lang,
         "api_key": key,
     }
 

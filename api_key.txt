@@ -1,2 +1,0 @@
-serpapi e2f1eb7309c17ffc3443c9780ce1c250daf898f28fa1658ebd7c74556b629bfd valid monthly credit exauhsted
-serpapi 2ee39e4a62c53b8925eedda4e64b3e0f3eed31d1d15cad2cc810a34d073c37f6 valid working

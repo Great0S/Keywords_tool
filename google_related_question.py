@@ -5,15 +5,13 @@ logger = settings.logger
 key = settings.serpApi_key5
 
 
-def autocomplete(query):
+def related(next_token):
     params = {
-        "engine": "google_autocomplete",
-        "q": query,
-        "api_key": key,
+        "engine": "google_related_questions",
+        "next_page_token": next_token,
+        "api_key": key
     }
 
     search = GoogleSearch(params)
     results = search.get_dict()
-
-    for result in results["suggestions"]:
-        logger.info(result['value'])
+    logger.info(results)

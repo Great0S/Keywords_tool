@@ -1,5 +1,8 @@
 import requests
 import xml.etree.ElementTree as ET
+from config.settings import settings
+
+logger = settings.logger
 
 # Define Class
 
@@ -24,16 +27,16 @@ class QuestionsExplorer:
 
 
 # Get a Keyword From The User
-userInput = input("Enter a Keyword: ")
+def question(userInput):
+    
+    userInput = input("Enter a Keyword: ")
 
-# Create Object of the QuestionsExplorer Class
-qObj = QuestionsExplorer()
+    # Create Object of the QuestionsExplorer Class
+    qObj = QuestionsExplorer()
 
 # Call The Method and pass the parameters
-questions = qObj.GetQuestions("is", userInput, "us")
+    questions = qObj.GetQuestions("is", userInput, "us")
 
 # Loop over the list and pring the questions
-for result in questions:
-    print(result)
-
-print("Done")
+    for result in questions:
+        logger.info(result)
