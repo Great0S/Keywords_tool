@@ -1,11 +1,9 @@
 import getopt
 import os
-import sys
+import time
+from rich.prompt import Prompt
 
 from config.settings import settings
-# from modules.google_autocomplete import autocomplete
-from modules.google_questions import question
-# from modules.google_related_question import related
 from modules.google_serp import serp
 
 logger = settings.logger
@@ -13,17 +11,10 @@ logger = settings.logger
 
 def queries_handler(query: str, lang: str):
     
-    logger.info("Serp results")
+    logger.info("Scraping start")   
+    start_time = time.time() 
     serp(query, lang)
-    
-    # logger.info("Autocomplete results")
-    # autocomplete(query)
-    
-    logger.info("Question results")
-    question(query)
-    
-    # logger.info("Related results")
-    # related(query)
+    logger.info(f"Scraped in {(time.time() - start_time):.2f} seconds")
 
 
 # clearing the console from unnecessary
@@ -33,11 +24,9 @@ def cls(): return os.system("cls")
 cls()
 
 
-logger.info("Keywords research starts")
+logger.info("SerpApi Keywords research")
 
-logger.info("Query: ")
-query = input()
-logger.info("Language ISO-Code: ")
-lang = input()
+query = Prompt.ask("Query")
+lang = Prompt.ask("Language ISO-Code")
 
 queries_handler(query, lang)
