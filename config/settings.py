@@ -50,6 +50,11 @@ class Settings(BaseSettings):
     serpApi_key3: str = '9079dcad0cf0a9f24fe95b8a53579fd9140d600861ea10151be0b237867a07ff'
     serpApi_key4: str = '477698bdf2954936a202befb298d84c929860ccd2e18b4ea5bf994bfda3718d6'
     serpApi_key5: str = 'ea129d0e45632d59617087eacf26bf48e3ce39458e0bb086c5513df96c413717'
+    serpApi_key6: str = '78a0e56f4d74e7e3acef3bce9bd0c116fe7999802aac437af911bf45d7898ea6'
+    serpApi_key7: str = '5b9c4228022e9cce8d288d0af14004cce63957b5922e2335b410631025d686b6'
+    serpApi_key8: str = '3aaff53cc10bdbc386caf955be287b334daee40d4c85702b35b034c1a17f10a1'
+    serpApi_key9: str = '2c76a8db8a76842ddb94e6fdf754aa85c1682b7bdc52b38c77c637dc4d03352b'
+    serpApi_key10: str = '4435d3a85dec7cb053ae29a3e360d111ae85170fa24d8e108c702d3c9b56374c'
     
     
     class Config:

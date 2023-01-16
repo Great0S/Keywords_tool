@@ -7672,3 +7672,179 @@
 [2023-01-05 14:09:35,452: INFO] SerpApi Keywords research
 [2023-01-05 14:09:36,882: INFO] Scraping start
 [2023-01-05 14:10:19,038: INFO] Scraped in 42.16 seconds
+[2023-01-06 17:10:03,627: INFO] SerpApi Keywords research
+[2023-01-06 17:10:43,795: INFO] Scraping start
+[2023-01-06 17:11:30,915: INFO] Scraped in 47.12 seconds
+[2023-01-06 17:16:39,199: INFO] SerpApi Keywords research
+[2023-01-06 17:16:41,805: INFO] Scraping start
+[2023-01-06 17:17:13,362: INFO] Scraped in 31.56 seconds
+[2023-01-06 17:40:40,823: INFO] SerpApi Keywords research
+[2023-01-06 17:40:44,415: INFO] Scraping start
+[2023-01-06 17:41:43,269: INFO] Scraped in 58.85 seconds
+[2023-01-06 17:44:21,900: INFO] SerpApi Keywords research
+[2023-01-06 17:44:23,503: INFO] Scraping start
+[2023-01-06 17:44:27,057: INFO] Scraped in 3.55 seconds
+[2023-01-06 17:45:10,825: INFO] SerpApi Keywords research
+[2023-01-06 17:45:18,843: INFO] Scraping start
+[2023-01-06 17:45:35,584: INFO] SerpApi Keywords research
+[2023-01-06 17:45:38,130: INFO] Scraping start
+[2023-01-06 17:46:29,086: INFO] Scraped in 50.95 seconds
+[2023-01-07 13:10:32,629: INFO] SerpApi Keywords research
+[2023-01-07 13:10:44,209: INFO] Scraping start
+[2023-01-07 13:11:12,414: INFO] SerpApi Keywords research
+[2023-01-07 13:11:15,185: INFO] Scraping start
+[2023-01-07 13:13:37,006: INFO] SerpApi Keywords research
+[2023-01-07 13:14:03,465: INFO] Scraping start
+[2023-01-07 13:14:30,442: ERROR] Empty results | Message: dict contains fields not in fieldnames: 'title'
+[2023-01-07 13:14:30,442: INFO] Scraped in 26.97 seconds
+[2023-01-07 14:15:59,834: INFO] SerpApi Keywords research
+[2023-01-07 14:16:31,671: INFO] Scraping start
+[2023-01-07 14:17:00,954: ERROR] Empty results | Message: dict contains fields not in fieldnames: 'title'
+[2023-01-07 14:17:00,969: INFO] Scraped in 29.29 seconds
+[2023-01-07 14:18:07,465: INFO] SerpApi Keywords research
+[2023-01-07 14:18:10,320: INFO] Scraping start
+[2023-01-07 14:18:51,885: INFO] SerpApi Keywords research
+[2023-01-07 14:18:56,311: INFO] Scraping start
+[2023-01-07 14:19:09,388: INFO] SerpApi Keywords research
+[2023-01-07 14:19:10,888: INFO] Scraping start
+[2023-01-07 14:19:12,630: INFO] Scraped in 1.73 seconds
+[2023-01-07 14:38:26,870: INFO] SerpApi Keywords research
+[2023-01-07 14:38:35,348: INFO] Scraping start
+[2023-01-07 14:39:32,106: INFO] Scraped in 56.76 seconds
+[2023-01-07 14:39:59,448: INFO] SerpApi Keywords research
+[2023-01-07 14:40:01,284: INFO] Scraping start
+[2023-01-07 14:40:30,634: INFO] Scraped in 29.35 seconds
+[2023-01-09 14:07:15,246: INFO] SerpApi Keywords research
+[2023-01-09 14:28:13,488: INFO] Scraping start
+[2023-01-09 14:29:09,950: INFO] Scraped in 56.46 seconds
+[2023-01-09 14:30:03,333: INFO] SerpApi Keywords research
+[2023-01-09 14:30:05,333: INFO] Scraping start
+[2023-01-09 14:30:48,595: INFO] Scraped in 43.26 seconds
+[2023-01-09 15:33:15,689: INFO] SerpApi Keywords research
+[2023-01-09 15:33:23,812: INFO] Scraping start
+[2023-01-09 15:34:09,929: INFO] Scraped in 46.12 seconds
+[2023-01-09 17:11:37,510: INFO] SerpApi Keywords research
+[2023-01-09 17:11:40,038: INFO] Scraping start
+[2023-01-09 17:12:24,999: INFO] Scraped in 44.96 seconds
+[2023-01-09 17:51:34,191: INFO] SerpApi Keywords research
+[2023-01-09 17:51:42,605: INFO] Scraping start
+[2023-01-09 17:52:23,255: INFO] Scraped in 40.63 seconds
+[2023-01-09 20:12:02,990: INFO] SerpApi Keywords research
+[2023-01-09 20:13:19,366: INFO] Scraping start
+[2023-01-09 20:13:23,161: INFO] Scraped in 3.78 seconds
+[2023-01-09 20:15:37,979: INFO] SerpApi Keywords research
+[2023-01-09 20:15:45,032: INFO] Scraping start
+[2023-01-09 20:16:47,267: INFO] Scraped in 62.22 seconds
+[2023-01-09 21:05:27,316: INFO] SerpApi Keywords research
+[2023-01-09 21:05:39,134: INFO] Scraping start
+[2023-01-09 21:06:34,300: INFO] Scraped in 55.15 seconds
+[2023-01-09 23:35:04,653: INFO] SerpApi Keywords research
+[2023-01-09 23:35:11,799: INFO] Scraping start
+[2023-01-09 23:36:28,567: INFO] Scraped in 76.76 seconds
+[2023-01-10 00:02:37,190: INFO] SerpApi Keywords research
+[2023-01-10 00:14:48,719: INFO] Scraping start
+[2023-01-10 00:14:52,162: INFO] Scraped in 3.44 seconds
+[2023-01-10 01:04:20,883: INFO] SerpApi Keywords research
+[2023-01-10 01:04:30,757: INFO] Scraping start
+[2023-01-10 01:04:38,172: INFO] SerpApi Keywords research
+[2023-01-10 01:04:59,811: INFO] Scraping start
+[2023-01-10 01:05:20,196: INFO] Scraped in 49.44 seconds
+[2023-01-10 01:05:52,766: INFO] Scraped in 52.94 seconds
+[2023-01-10 10:33:31,030: INFO] SerpApi Keywords research
+[2023-01-10 10:33:43,426: INFO] Scraping start
+[2023-01-10 10:34:34,672: INFO] Scraped in 51.25 seconds
+[2023-01-10 11:08:15,802: INFO] SerpApi Keywords research
+[2023-01-10 11:08:20,955: INFO] Scraping start
+[2023-01-10 11:09:34,607: INFO] Scraped in 73.62 seconds
+[2023-01-10 11:17:03,808: INFO] SerpApi Keywords research
+[2023-01-10 11:23:32,316: INFO] Scraping start
+[2023-01-10 11:24:27,641: INFO] SerpApi Keywords research
+[2023-01-10 11:24:35,021: INFO] Scraped in 62.69 seconds
+[2023-01-10 11:26:28,817: INFO] Scraping start
+[2023-01-16 09:58:02,760: INFO] SerpApi Keywords research
+[2023-01-16 09:58:21,579: INFO] Scraping start
+[2023-01-16 09:58:50,945: INFO] Scraped in 29.36 seconds
+[2023-01-16 10:03:10,295: INFO] SerpApi Keywords research
+[2023-01-16 10:03:22,023: INFO] Scraping start
+[2023-01-16 10:04:21,460: INFO] Scraped in 59.44 seconds
+[2023-01-16 10:08:44,498: INFO] SerpApi Keywords research
+[2023-01-16 10:08:48,537: INFO] Scraping start
+[2023-01-16 10:08:52,662: INFO] Scraped in 4.12 seconds
+[2023-01-16 10:09:18,822: INFO] SerpApi Keywords research
+[2023-01-16 10:09:20,185: INFO] Scraping start
+[2023-01-16 10:09:24,079: INFO] Scraped in 3.89 seconds
+[2023-01-16 10:09:58,741: INFO] SerpApi Keywords research
+[2023-01-16 10:10:00,234: INFO] Scraping start
+[2023-01-16 10:10:56,026: INFO] Scraped in 55.79 seconds
+[2023-01-16 10:17:49,908: INFO] SerpApi Keywords research
+[2023-01-16 10:17:51,989: INFO] Scraping start
+[2023-01-16 10:18:47,354: INFO] Scraped in 55.37 seconds
+[2023-01-16 10:24:06,240: INFO] SerpApi Keywords research
+[2023-01-16 10:24:12,182: INFO] Scraping start
+[2023-01-16 10:24:57,287: INFO] Scraped in 45.09 seconds
+[2023-01-16 10:32:09,853: INFO] SerpApi Keywords research
+[2023-01-16 10:32:19,100: INFO] Scraping start
+[2023-01-16 10:33:05,749: INFO] Scraped in 46.65 seconds
+[2023-01-16 10:42:50,738: INFO] SerpApi Keywords research
+[2023-01-16 10:43:00,294: INFO] Scraping start
+[2023-01-16 10:43:47,031: INFO] Scraped in 46.74 seconds
+[2023-01-16 10:52:34,032: INFO] SerpApi Keywords research
+[2023-01-16 10:52:39,742: INFO] Scraping start
+[2023-01-16 10:53:26,646: INFO] Scraped in 46.90 seconds
+[2023-01-16 11:02:12,342: INFO] SerpApi Keywords research
+[2023-01-16 11:02:20,897: INFO] Scraping start
+[2023-01-16 11:02:59,797: INFO] Scraped in 38.90 seconds
+[2023-01-16 11:08:47,834: INFO] SerpApi Keywords research
+[2023-01-16 11:08:53,281: INFO] Scraping start
+[2023-01-16 11:09:32,784: INFO] Scraped in 39.50 seconds
+[2023-01-16 11:20:13,633: INFO] SerpApi Keywords research
+[2023-01-16 11:20:15,944: INFO] Scraping start
+[2023-01-16 11:21:13,820: INFO] Scraped in 57.88 seconds
+[2023-01-16 13:04:08,983: INFO] SerpApi Keywords research
+[2023-01-16 13:04:15,461: INFO] Scraping start
+[2023-01-16 13:04:54,387: INFO] Scraped in 38.91 seconds
+[2023-01-16 13:14:58,007: INFO] SerpApi Keywords research
+[2023-01-16 13:15:03,970: INFO] Scraping start
+[2023-01-16 13:15:07,985: INFO] Scraped in 4.01 seconds
+[2023-01-16 13:15:16,289: INFO] SerpApi Keywords research
+[2023-01-16 13:15:26,990: INFO] Scraping start
+[2023-01-16 13:15:31,030: INFO] Scraped in 4.04 seconds
+[2023-01-16 13:49:42,530: INFO] SerpApi Keywords research
+[2023-01-16 13:49:44,064: INFO] Scraping start
+[2023-01-16 13:49:48,004: INFO] Scraped in 3.94 seconds
+[2023-01-16 13:49:52,182: INFO] SerpApi Keywords research
+[2023-01-16 13:49:56,703: INFO] SerpApi Keywords research
+[2023-01-16 13:49:58,190: INFO] Scraping start
+[2023-01-16 13:50:36,337: INFO] Scraped in 38.15 seconds
+[2023-01-16 13:57:47,232: INFO] SerpApi Keywords research
+[2023-01-16 13:57:54,363: INFO] Scraping start
+[2023-01-16 13:58:28,381: INFO] Scraped in 34.00 seconds
+[2023-01-16 14:05:56,921: INFO] SerpApi Keywords research
+[2023-01-16 14:06:14,265: INFO] Scraping start
+[2023-01-16 14:06:53,412: INFO] Scraped in 39.14 seconds
+[2023-01-16 14:12:22,237: INFO] SerpApi Keywords research
+[2023-01-16 14:12:33,288: INFO] Scraping start
+[2023-01-16 14:13:10,275: INFO] Scraped in 36.99 seconds
+[2023-01-16 14:19:07,193: INFO] SerpApi Keywords research
+[2023-01-16 14:19:17,039: INFO] Scraping start
+[2023-01-16 14:20:19,138: INFO] Scraped in 62.10 seconds
+[2023-01-16 14:24:40,195: INFO] SerpApi Keywords research
+[2023-01-16 14:24:44,838: INFO] Scraping start
+[2023-01-16 14:25:37,503: INFO] Scraped in 52.67 seconds
+[2023-01-16 14:30:48,196: INFO] SerpApi Keywords research
+[2023-01-16 14:30:56,393: INFO] Scraping start
+[2023-01-16 14:31:39,041: INFO] Scraped in 42.65 seconds
+[2023-01-16 14:35:20,956: INFO] SerpApi Keywords research
+[2023-01-16 14:35:22,596: INFO] Scraping start
+[2023-01-16 14:35:56,493: INFO] Scraped in 33.90 seconds
+[2023-01-16 14:41:53,349: INFO] SerpApi Keywords research
+[2023-01-16 14:41:56,888: INFO] Scraping start
+[2023-01-16 14:42:41,018: INFO] Scraped in 44.13 seconds
+[2023-01-16 14:48:10,591: INFO] SerpApi Keywords research
+[2023-01-16 14:48:12,464: INFO] Scraping start
+[2023-01-16 14:48:49,634: INFO] Scraped in 37.17 seconds
+[2023-01-16 15:27:50,147: INFO] SerpApi Keywords research
+[2023-01-16 15:27:51,889: INFO] Scraping start
+[2023-01-16 15:28:51,368: INFO] Scraped in 59.46 seconds
+[2023-01-16 15:35:37,311: INFO] SerpApi Keywords research
+[2023-01-16 15:35:42,881: INFO] Scraping start

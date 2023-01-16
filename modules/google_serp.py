@@ -5,7 +5,7 @@ from serpapi import GoogleSearch
 from config.settings import settings
 
 logger = settings.logger
-key = settings.serpApi_key4
+key = settings.serpApi_key7
 params = None
 
 
@@ -37,7 +37,7 @@ def get_highlighted_keywords(query):
     organic_data = []
     question_data = []
     related_query_data = []
-    organic_data_header = ['position','query', 'snippet_highlighted_words', 'rich_snippet_list', 'snippet', 'link']
+    organic_data_header = ['position','title','query', 'snippet_highlighted_words', 'rich_snippet_list', 'snippet', 'link']
     question_data_header = ['query', 'question', 'title', 'snippet', 'date', 'link']
     related_query_data_header = ['query', 'related']
 
@@ -87,8 +87,12 @@ def get_organic(query, offset_results):
                 snip = result['snippet']
             else:
                 snip = 'None' 
+            
+            title = None
+            if 'title' in result:
+                title = result['title']
 
-            payload = {'position': result['position'], 'query': query, 'snippet_highlighted_words': hsnip.copy(), 'rich_snippet_list': asnip.copy(), 'snippet': snip, 'link': result['link']}
+            payload = {'position': result['position'], 'query': query, 'title': title, 'snippet_highlighted_words': hsnip.copy(), 'rich_snippet_list': asnip.copy(), 'snippet': snip, 'link': result['link']}
             organic_data.append(payload)
             hsnip.clear()
             asnip.clear()
