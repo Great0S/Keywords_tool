@@ -5,7 +5,7 @@ from serpapi import GoogleSearch
 from config.settings import settings
 
 logger = settings.logger
-key = settings.serpApi_key7
+key = settings.serpApi_key
 params = None
 
 
