@@ -3,7 +3,6 @@
     the SerpApi library for Google search results."""
 
 import csv
-import os
 from serpapi import GoogleSearch
 from config.settings import settings
 
@@ -13,6 +12,26 @@ KEY = settings.serpApi_key
 
 
 def serp(query: str, country: str):
+
+    """
+    The `serp` function retrieves search engine results 
+    for a given query and country, organizing the data 
+    into organic results, questions, and related queries.
+    
+    :param query: The `query` parameter in the `serp` 
+    function is a string that represents the search
+    query for which you want to retrieve search engine 
+    results. It is the term or terms that a user enters 
+    into a search engine to find specific information
+    :type query: str
+    :param country: The `country` parameter in the `serp` 
+    function is used to specify the country for which the 
+    search results are to be retrieved. If a country is 
+    provided, the function will iterate over the cities 
+    in that country and fetch search results specific to 
+    each city. If no country is provided, the
+    :type country: str
+    """
 
     organic_data = []
     question_data = []
@@ -62,7 +81,7 @@ def serp(query: str, country: str):
             else:
 
                 for page in pages:
-                
+
                     organic_data.append(get_organic(query, page))
                     question_data.append(get_questions(query, page))
                     related_query_data.append(get_related_query(query, page))

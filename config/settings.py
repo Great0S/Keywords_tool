@@ -11,7 +11,6 @@ from pydantic_settings import BaseSettings
 from config.logger import log_config
 
 
-
 # Declaring global variables
 class Settings(BaseSettings):
 
@@ -29,28 +28,28 @@ class Settings(BaseSettings):
 
     # Locations
     cities_dict: dict = {
-    "saudi arabia": [
-        "Riyadh", "Jeddah", "Mecca", "Medina", "Dammam", "Khobar", "Taif", "Tabuk",
-        "Buraydah", "Khamis Mushait", "Hail", "Najran", "Al-Qatif", "Yanbu", "Al Hofuf",
-        "Jubail", "Abha", "Jizan", "Al-Kharj", "Hafar Al-Batin"
-    ],
-    "usa": [
-        "New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia",
-        "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Jacksonville",
-        "San Francisco", "Columbus", "Fort Worth", "Indianapolis", "Charlotte",
-        "Seattle", "Denver", "Washington"
-    ],
-    "uae": [
-        "Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah",
-        "Umm Al Quwain"
-    ],
-    "qatar": [
-        "Doha", "Al Rayyan", "Umm Salal", "Al Wakrah", "Al Khor", "Al Shamal", "Mesaieed"
-    ]
-}
-
+        "saudi arabia": [
+            "Riyadh", "Jeddah", "Mecca", "Medina", "Dammam", "Khobar", "Taif", "Tabuk",
+            "Buraydah", "Khamis Mushait", "Hail", "Najran", "Al-Qatif", "Yanbu", "Al Hofuf",
+            "Jubail", "Abha", "Jizan", "Al-Kharj", "Hafar Al-Batin"
+        ],
+        "usa": [
+            "New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia",
+            "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Jacksonville",
+            "San Francisco", "Columbus", "Fort Worth", "Indianapolis", "Charlotte",
+            "Seattle", "Denver", "Washington"
+        ],
+        "uae": [
+            "Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah",
+            "Umm Al Quwain"
+        ],
+        "qatar": [
+            "Doha", "Al Rayyan", "Umm Salal", "Al Wakrah", "Al Khor", "Al Shamal", "Mesaieed"
+        ]
+    }
 
     class Config:
+        """The `Config` class in Python has a `case_sensitive` attribute set to `True`."""
         case_sensitive = True
 
 
